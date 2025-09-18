@@ -1,4 +1,5 @@
 import { useState } from "react"
+import GridImg from "/assets/grid.png";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -82,7 +83,7 @@ const Contact = () => {
         </div>
         <div className="absolute w-full h-full z-10"
             style={{
-                backgroundImage:'url(/assets/grid.png)',
+                backgroundImage: `url(${GridImg})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'bottom'
             }}
