@@ -23,7 +23,8 @@ const Contact = () => {
             <div className="flex flex-col items-start w-full gap-5 mb-10">
                 <h2 className="text-heading">Contact Me</h2>
                 <p className="font-normal text-neutral-400">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores reprehenderit ea ipsa consequuntur veniam quod quibusdam, alias magni asperiores molestiae consequatur, sit enim eius blanditiis fuga obcaecati quasi reiciendis aspernatur!
+                    I’m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.  
+                    Whether you want to collaborate, ask a question, or just say hello — feel free to reach out!
                 </p>
                 <form className="w-full">
                     <div className="mb-5">

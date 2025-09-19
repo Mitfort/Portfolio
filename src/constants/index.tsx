@@ -17,25 +17,18 @@ const projects = [
     color: "from-royal to-lavender",
     files: [
       {
-        name: "Stock Predictor",
-        desc: "Predicts stock prices using regression models.",
+        name: "Cardiomegally classifier",
+        desc: "Based on research, group project that reads expected data from the chest segmentated images and predicts if patient has cardiomegally or not",
         image: "https://via.placeholder.com/600x300?text=Stock+Predictor",
-        github: "https://github.com/yourusername/stock-predictor",
-        live: "https://stock-predictor-demo.netlify.app",
+        github: "",
+        live: "",
       },
       {
-        name: "Spam Classifier",
-        desc: "Classifies emails as spam or not spam using Naive Bayes.",
-        image: "https://via.placeholder.com/600x300?text=Spam+Classifier",
-        github: "https://github.com/yourusername/spam-classifier",
-        live: "https://spam-classifier-demo.netlify.app",
-      },
-      {
-        name: "Recommender System",
-        desc: "Recommends products using collaborative filtering.",
-        image: "https://via.placeholder.com/600x300?text=Recommender+System",
-        github: "https://github.com/yourusername/recommender-system",
-        live: "https://recommender-demo.netlify.app",
+        name: "IBM Data Science Specialization",
+        desc: "Course that was my beginning with machine-learning and data analysis, HIGHLY RECOMENDED :D",
+        image: "https://via.placeholder.com/600x300?text=Stock+Predictor",
+        github: "https://github.com/Mitfort/DataScience",
+        live: "",
       },
     ],
   },
@@ -44,25 +37,18 @@ const projects = [
     color: "from-fuchsia to-coral",
     files: [
       {
-        name: "Image Classifier",
-        desc: "CNN-based model classifying 10 image categories.",
+        name: "Flappy-Bird agent",
+        desc: "DQN Agent trained to play flappybird gymnasium environment",
         image: "https://via.placeholder.com/600x300?text=Image+Classifier",
-        github: "https://github.com/yourusername/image-classifier",
-        live: "https://image-classifier-demo.netlify.app",
+        github: "",
+        live: "Portfolio/assets/projects/video/FlappyBird.mp4",
       },
       {
-        name: "Object Detection",
-        desc: "YOLO-based object detector with live webcam feed.",
+        name: "Connect4 2 bots competitions",
+        desc: "Firstly one bot was trained to know the rules of the game, then him and his copy played together.",
         image: "https://via.placeholder.com/600x300?text=Object+Detection",
-        github: "https://github.com/yourusername/object-detection",
-        live: "https://object-detection-demo.netlify.app",
-      },
-      {
-        name: "GAN Art Generator",
-        desc: "Generates abstract art using Generative Adversarial Networks.",
-        image: "https://via.placeholder.com/600x300?text=GAN+Art+Generator",
-        github: "https://github.com/yourusername/gan-art-generator",
-        live: "https://gan-art-demo.netlify.app",
+        github: "",
+        live: "Portfolio/assets/projects/video/Connect4.mp4",
       },
     ],
   },
@@ -71,25 +57,18 @@ const projects = [
     color: "from-orange to-sand",
     files: [
       {
-        name: "Pixel Platformer",
-        desc: "2D platformer with retro pixel art and smooth physics.",
+        name: "City Runner",
+        desc: "2D platformer",
         image: "https://via.placeholder.com/600x300?text=Pixel+Platformer",
-        github: "https://github.com/yourusername/pixel-platformer",
-        live: "https://pixel-platformer-demo.netlify.app",
+        github: "",
+        live: "Portfolio/assets/projects/video/Runner.mp4",
       },
       {
-        name: "Multiplayer Shooter",
-        desc: "Fast-paced online FPS game built in Unity.",
+        name: "Stash Crush",
+        desc: "Candy crush based game",
         image: "https://via.placeholder.com/600x300?text=Multiplayer+Shooter",
-        github: "https://github.com/yourusername/multiplayer-shooter",
-        live: "https://shooter-demo.netlify.app",
-      },
-      {
-        name: "Puzzle Quest",
-        desc: "Mobile puzzle game with hundreds of handcrafted levels.",
-        image: "https://via.placeholder.com/600x300?text=Puzzle+Quest",
-        github: "https://github.com/yourusername/puzzle-quest",
-        live: "https://puzzle-quest-demo.netlify.app",
+        github: "",
+        live: "Portfolio/assets/projects/video/Beczka.mp4",
       },
     ],
   },
@@ -98,31 +77,76 @@ const projects = [
     color: "from-emerald-600 to-lime-600",
     files: [
       {
-        name: "Pixel Platformer",
-        desc: "2D platformer with retro pixel art and smooth physics.",
+        name: "Portfolio",
+        desc: "This website is an example :D",
         image: "https://via.placeholder.com/600x300?text=Pixel+Platformer",
-        github: "https://github.com/yourusername/pixel-platformer",
-        live: "https://pixel-platformer-demo.netlify.app",
+        github: "https://github.com/Mitfort/Portfolio",
+        live: "",
       },
       {
-        name: "Multiplayer Shooter",
-        desc: "Fast-paced online FPS game built in Unity.",
+        name: "AI-MED Website",
+        desc: "Cooperation on creating a website for students science group",
         image: "https://via.placeholder.com/600x300?text=Multiplayer+Shooter",
-        github: "https://github.com/yourusername/multiplayer-shooter",
-        live: "https://shooter-demo.netlify.app",
-      },
-      {
-        name: "Puzzle Quest",
-        desc: "Mobile puzzle game with hundreds of handcrafted levels.",
-        image: "https://via.placeholder.com/600x300?text=Puzzle+Quest",
-        github: "https://github.com/yourusername/puzzle-quest",
-        live: "https://puzzle-quest-demo.netlify.app",
+        github: "",
+        live: "https://aimed.agh.edu.pl/",
       },
     ],
   },
 ];
 
+const quotes = [
+  {
+    text: "The best way to predict the future is to create it.",
+    author: "Peter Drucker",
+  },
+  {
+    text: "Do what you can, with what you have, where you are.",
+    author: "Theodore Roosevelt",
+  },
+  {
+    text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    author: "Winston Churchill",
+  },
+  {
+    text: "Happiness is not something ready made. It comes from your own actions.",
+    author: "Dalai Lama",
+  },
+  {
+    text: "In the middle of every difficulty lies opportunity.",
+    author: "Albert Einstein",
+  },
+  {
+    text: "It always seems impossible until it's done.",
+    author: "Nelson Mandela",
+  },
+  {
+    text: "Be yourself; everyone else is already taken.",
+    author: "Oscar Wilde",
+  },
+  {
+    text: "The secret of getting ahead is getting started.",
+    author: "Mark Twain",
+  },
+  {
+    text: "Fall seven times and stand up eight.",
+    author: "Japanese Proverb",
+  },
+  {
+    text: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    author: "Ralph Waldo Emerson",
+  },
+  {
+    text: "Everything you can imagine is real.",
+    author: "Pablo Picasso",
+  },
+  {
+    text: "If you want to lift yourself up, lift up someone else.",
+    author: "Booker T. Washington",
+  },
+];
+
 export {
     words,
-    projects
+    projects,
+    quotes
 }
