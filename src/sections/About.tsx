@@ -18,8 +18,7 @@ const About = () => {
           <div className="relative z-10 p-4">
             <h3 className="text-xl font-bold">Hi, I'm Matthew</h3>
             <p className="text-3xl text-neutral-200">
-              Frontend developer passionate about creating beautiful, fast, and
-              interactive web experiences.
+              Developer passionate about creating new solutions
             </p>
           </div>
         </div>

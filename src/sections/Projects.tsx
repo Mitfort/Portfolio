@@ -84,20 +84,30 @@ const Projects = () => {
             <p className="text-neutral-300 text-sm mb-4">{selectedProject.desc}</p>
 
             <div className="flex gap-4">
-              <a
-                href={selectedProject.github}
-                target="_blank"
-                className="flex items-center gap-2 bg-primary/50 hover:bg-primary/70 text-sm px-4 py-2 rounded-lg transition-colors"
-              >
-                <Github size={16} /> GitHub
-              </a>
-              <a
-                href={selectedProject.live}
-                target="_blank"
-                className="flex items-center gap-2 bg-aqua/50 hover:bg-aqua/70 text-sm px-4 py-2 rounded-lg transition-colors"
-              >
-                <ExternalLink size={16} /> Live Demo
-              </a>
+              {
+                selectedProject.github != "" ? (
+                   <a
+                    href={selectedProject.github}
+                    target="_blank"
+                    className="flex items-center gap-2 bg-primary/50 hover:bg-primary/70 text-sm px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <Github size={16} /> GitHub
+                  </a>
+                ) : <></>
+              }
+
+              {
+                selectedProject.live != "" ? (
+                  <a
+                    href={selectedProject.live}
+                    target="_blank"
+                    className="flex items-center gap-2 bg-aqua/50 hover:bg-aqua/70 text-sm px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <ExternalLink size={16} /> Live Demo
+                  </a>
+                ) : <></>
+              }
+             
             </div>
           </div>
         </div>
