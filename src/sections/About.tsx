@@ -36,6 +36,7 @@ const About = () => {
         <div className="grid-black-color grid-3 flex flex-col justify-center p-6">
           <h3 className="font-semibold text-lg mb-2">Experience</h3>
           <Badge name='IBM DATA SCIENCE' from="COURSERA" link="https://coursera.org/share/d0dcae8608b638f5f5f8481c65bcb8e5"/>
+          <Badge name='HackerRank' from="HACKERRANK" link="https://www.hackerrank.com/profile/poszeleznymateu1"/>
         </div>
 
         <div className="grid-special-color grid-4 flex flex-col justify-center p-6">
