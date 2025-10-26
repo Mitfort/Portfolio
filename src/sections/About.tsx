@@ -30,6 +30,10 @@ const About = () => {
             <li className="px-2 py-1 bg-black/30 rounded-md">Python</li>
             <li className="px-2 py-1 bg-black/30 rounded-md">TypeScript</li>
             <li className="px-2 py-1 bg-black/30 rounded-md">React</li>
+            <li className="px-2 py-1 bg-black/30 rounded-md">.NET</li>
+            <li className="px-2 py-1 bg-black/30 rounded-md">C#</li> 
+            <li className="px-2 py-1 bg-black/30 rounded-md">C++</li> 
+            <li className="px-2 py-1 bg-black/30 rounded-md">SQL</li> 
           </ul>
         </div>
 

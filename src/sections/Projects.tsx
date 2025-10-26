@@ -75,11 +75,14 @@ const Projects = () => {
               <X size={20} />
             </button>
 
-            <img
-              src={selectedProject.image}
-              alt={selectedProject.name}
-              className="rounded-lg mb-4 w-full object-cover"
-            />
+            {selectedProject.image ?
+              <img
+                src={selectedProject.image}
+                alt={selectedProject.name}
+                className="rounded-lg mb-4 w-full object-cover"
+              />
+            : <></>}
+
             <h3 className="text-2xl font-semibold mb-2">{selectedProject.name}</h3>
             <p className="text-neutral-300 text-sm mb-4">{selectedProject.desc}</p>
 

@@ -92,6 +92,19 @@ const projects = [
       },
     ],
   },
+  {
+    name: "Hackathons",
+    color: "from-red-600 to-yellow-600",
+    files: [
+      {
+        name: "HackYeah",
+        desc: "The biggest stationary hackathon in Europe (2025) ",
+        image: "",
+        github: "https://github.com/Mitfort/LavenderSpiritAPI",
+        live: "",
+      },
+    ],
+  },
 ];
 
 const quotes = [
